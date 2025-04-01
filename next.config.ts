@@ -7,7 +7,8 @@ const config = {
   basePath: '/sniphub-support',
   images: {
     unoptimized: true
-  }
+  },
+  trailingSlash: true
 };
 
 export default config;
