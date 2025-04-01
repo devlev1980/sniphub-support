@@ -49,7 +49,7 @@ export default function Documentation() {
       <div className="bg-white shadow rounded-lg p-6 mb-8">
         <h2 className="text-xl font-semibold text-gray-900 mb-4">Quick Start Guide</h2>
         <p className="text-gray-600 mb-6">
-          Welcome to the SnipHub documentation. Here you'll find comprehensive guides and tutorials to help you get started with SnipHub quickly.
+          Welcome to the SnipHub documentation. Here you&apos;ll find comprehensive guides and tutorials to help you get started with SnipHub quickly.
         </p>
         <div className="prose max-w-none">
           <h3>Basic Steps to Get Started:</h3>
