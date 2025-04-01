@@ -9,7 +9,14 @@ const config = {
     unoptimized: true
   },
   trailingSlash: true,
-  assetPrefix: '/sniphub-support/'
+  assetPrefix: '/sniphub-support/',
+  webpack: (config: any) => {
+    config.module.rules.push({
+      test: /\.(png|jpg|gif|svg)$/i,
+      type: 'asset/resource'
+    });
+    return config;
+  }
 };
 
 export default config;
