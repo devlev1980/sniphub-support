@@ -86,7 +86,7 @@ export default function Documentation() {
       <div className="mt-8 bg-white shadow rounded-lg p-6">
         <h2 className="text-xl font-semibold text-gray-900 mb-4">Need More Help?</h2>
         <p className="text-gray-600 mb-4">
-          If you can't find what you're looking for in the documentation, we're here to help.
+          If you can&apos;t find what you&apos;re looking for in the documentation, we&apos;re here to help.
         </p>
         <a
           href="/contact"

@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="bg-white shadow rounded-lg p-6 mb-8">
         <h2 className="text-xl font-semibold text-gray-900 mb-4">Get in Touch</h2>
         <p className="text-gray-600 mb-6">
-          Need help with SnipHub? Our support team is here to assist you. Fill out the form below and we'll get back to you as soon as possible.
+          Need help with SnipHub? Our support team is here to assist you. Fill out the form below and we&apos;ll get back to you as soon as possible.
         </p>
         
         <form className="space-y-6">
