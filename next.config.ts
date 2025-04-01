@@ -8,7 +8,8 @@ const config = {
   images: {
     unoptimized: true
   },
-  trailingSlash: true
+  trailingSlash: true,
+  assetPrefix: '/sniphub-support/'
 };
 
 export default config;

@@ -26,10 +26,13 @@ jobs:
       - name: Build
         run: npm run build
         
+      - name: List build output
+        run: ls -la dist
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist/app
+          path: ./dist
 
   deploy:
     runs-on: ubuntu-latest
