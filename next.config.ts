@@ -9,7 +9,12 @@ const config = {
     unoptimized: true
   },
   trailingSlash: true,
-  assetPrefix: '/sniphub-support/'
+  assetPrefix: '/sniphub-support/',
+  experimental: {
+    images: {
+      unoptimized: true
+    }
+  }
 };
 
 export default config;

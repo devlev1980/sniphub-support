@@ -26,6 +26,11 @@ jobs:
       - name: Build
         run: npm run build
         
+      - name: Copy icon to output directory
+        run: |
+          mkdir -p dist/public
+          cp public/100.png dist/public/
+        
       - name: List build output
         run: ls -la dist
         
