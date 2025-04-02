@@ -6,6 +6,9 @@ const config = {
   },
   output: 'export',
   distDir: 'dist',
+  basePath: '/sniphub-support',
+  assetPrefix: '/sniphub-support/',
+  trailingSlash: true,
   images: {
     unoptimized: true
   }

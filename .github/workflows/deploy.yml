@@ -31,10 +31,11 @@ jobs:
         env:
           NODE_ENV: production
 
-      - name: Copy icon to output directory
+      - name: Prepare dist directory
         run: |
-          mkdir -p dist/public
-          cp public/100.png dist/public/
+          touch dist/.nojekyll
+          cp public/.nojekyll dist/
+          cp -r public/* dist/
 
       - name: List build output
         run: ls -la dist
