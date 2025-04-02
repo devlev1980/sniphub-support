@@ -33,9 +33,18 @@ jobs:
           NODE_ENV: production
           GITHUB_ACTIONS: true
 
+      - name: List build output
+        run: ls -la dist
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist
           branch: gh-pages
-          token: ${{ secrets.GITHUB_TOKEN }} 
+          token: ${{ secrets.GITHUB_TOKEN }}
+          clean: true
+          clean-exclude: |
+            .nojekyll
+            CNAME
+            .github
+            README.md 
