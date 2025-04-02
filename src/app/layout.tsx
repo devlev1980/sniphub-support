@@ -27,7 +27,7 @@ export default function RootLayout({
                 <div className="flex">
                   <div className="flex-shrink-0 flex items-center">
                     <Link href="/" className="flex items-center space-x-2">
-                      <Image
+                      <img
                         src="/100.png"
                         alt="SnipHub Icon"
                         width={32}
