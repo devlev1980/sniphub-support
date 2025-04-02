@@ -27,12 +27,13 @@ export default function RootLayout({
                 <div className="flex">
                   <div className="flex-shrink-0 flex items-center">
                     <Link href="/" className="flex items-center space-x-2">
-                      <img
+                      <Image
                         src="/100.png"
                         alt="SnipHub Icon"
                         width={32}
                         height={32}
                         className="rounded-lg"
+                        unoptimized={true}
                       />
                       <span className="text-2xl font-bold text-indigo-600">
                         SnipHub
