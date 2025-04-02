@@ -85,7 +85,7 @@ export default function Contact() {
             </div>
             <div className="ml-3">
               <p className="text-sm font-medium text-gray-900">Email Support</p>
-              <p className="text-sm text-gray-500">support@sniphub.app</p>
+              <p className="text-sm text-gray-500">string1980@gmail.com</p>
             </div>
           </div>
           

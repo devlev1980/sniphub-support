@@ -17,6 +17,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -28,7 +30,7 @@ export default function RootLayout({
                   <div className="flex-shrink-0 flex items-center">
                     <Link href="/" className="flex items-center space-x-2">
                       <Image
-                        src="/sniphub-support/100.png"
+                        src={`${basePath}/100.png`}
                         alt="SnipHub Icon"
                         width={32}
                         height={32}

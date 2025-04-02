@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const config = {
   reactStrictMode: true,
   devIndicators: {
@@ -6,11 +8,18 @@ const config = {
   },
   output: 'export',
   distDir: 'dist',
-  basePath: '/sniphub-support',
-  assetPrefix: '/sniphub-support/',
+  basePath,
+  assetPrefix: `${basePath}/`,
   trailingSlash: true,
   images: {
-    unoptimized: true
+    unoptimized: true,
+    domains: ['localhost'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.github.io',
+      },
+    ],
   }
 };
 
