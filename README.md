@@ -1,4 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SnipHub App
+
+A Next.js application for managing code snippets.
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. The deployment workflow:
+
+1. Triggers on push to the main branch
+2. Builds the Next.js application
+3. Deploys to the gh-pages branch
+
+## Local Development vs Production
+
+- Local development: `http://localhost:3000`
+- Production: `https://[your-github-username].github.io/sniphub-app`
+
+## Technologies Used
+
+- Next.js 14
+- React 18
+- TypeScript
+- Tailwind CSS
 
 ## Getting Started
 
