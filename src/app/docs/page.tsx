@@ -24,9 +24,8 @@ export default function Documentation() {
       title: "Advanced Features",
       description: "Explore advanced features to make the most of SnipHub.",
       topics: [
-        "iCloud sync",
-        "Sharing snippets",
-        "Keyboard shortcuts",
+        "iCloud sync (coming soon)",
+        "Sharing snippets (coming soon)",
         "Custom themes"
       ]
     },
@@ -55,8 +54,7 @@ export default function Documentation() {
           <h3 className="text-gray-800">Basic Steps to Get Started:</h3>
           <ol className="text-gray-700">
             <li>Download SnipHub from the App Store</li>
-            <li>Launch the app and sign in with your Apple ID</li>
-            <li>Enable iCloud sync in the app settings</li>
+            <li>Launch the app and sign up/sign in with your email and password</li>
             <li>Start creating your first snippet</li>
           </ol>
         </div>
