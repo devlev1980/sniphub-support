@@ -44,16 +44,16 @@ export default function Documentation() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold text-gray-900 mb-8">Documentation</h1>
+      <h1 className="text-3xl font-bold text-gray-800 mb-8">Documentation</h1>
       
       <div className="bg-white shadow rounded-lg p-6 mb-8">
-        <h2 className="text-xl font-semibold text-gray-900 mb-4">Quick Start Guide</h2>
-        <p className="text-gray-600 mb-6">
+        <h2 className="text-xl font-semibold text-gray-800 mb-4">Quick Start Guide</h2>
+        <p className="text-gray-700 mb-6">
           Welcome to the SnipHub documentation. Here you&apos;ll find comprehensive guides and tutorials to help you get started with SnipHub quickly.
         </p>
-        <div className="prose max-w-none">
-          <h3>Basic Steps to Get Started:</h3>
-          <ol>
+        <div className="prose max-w-none text-gray-700">
+          <h3 className="text-gray-800">Basic Steps to Get Started:</h3>
+          <ol className="text-gray-700">
             <li>Download SnipHub from the App Store</li>
             <li>Launch the app and sign in with your Apple ID</li>
             <li>Enable iCloud sync in the app settings</li>
@@ -66,11 +66,11 @@ export default function Documentation() {
         {guides.map((guide, index) => (
           <div key={index} className="bg-white shadow rounded-lg overflow-hidden">
             <div className="p-6">
-              <h3 className="text-lg font-medium text-gray-900 mb-2">{guide.title}</h3>
-              <p className="text-gray-600 mb-4">{guide.description}</p>
+              <h3 className="text-lg font-medium text-gray-800 mb-2">{guide.title}</h3>
+              <p className="text-gray-700 mb-4">{guide.description}</p>
               <ul className="space-y-2">
                 {guide.topics.map((topic, topicIndex) => (
-                  <li key={topicIndex} className="flex items-center text-sm text-gray-600">
+                  <li key={topicIndex} className="flex items-center text-sm text-gray-700">
                     <svg className="h-4 w-4 text-indigo-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
@@ -84,8 +84,8 @@ export default function Documentation() {
       </div>
 
       <div className="mt-8 bg-white shadow rounded-lg p-6">
-        <h2 className="text-xl font-semibold text-gray-900 mb-4">Need More Help?</h2>
-        <p className="text-gray-600 mb-4">
+        <h2 className="text-xl font-semibold text-gray-800 mb-4">Need More Help?</h2>
+        <p className="text-gray-700 mb-4">
           If you can&apos;t find what you&apos;re looking for in the documentation, we&apos;re here to help.
         </p>
         <a

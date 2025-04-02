@@ -44,25 +44,25 @@ export default function RootLayout({
                   <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                     <Link
                       href="/"
-                      className="border-transparent text-gray-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors duration-200 hover:border-indigo-500/50"
+                      className="border-transparent text-gray-700 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors duration-200 hover:border-indigo-500/50"
                     >
                       Home
                     </Link>
                     <Link
                       href="/docs"
-                      className="border-transparent text-gray-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors duration-200 hover:border-indigo-500/50"
+                      className="border-transparent text-gray-700 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors duration-200 hover:border-indigo-500/50"
                     >
                       Documentation
                     </Link>
                     <Link
                       href="/faq"
-                      className="border-transparent text-gray-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors duration-200 hover:border-indigo-500/50"
+                      className="border-transparent text-gray-700 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors duration-200 hover:border-indigo-500/50"
                     >
                       FAQ
                     </Link>
                     <Link
                       href="/contact"
-                      className="border-transparent text-gray-500 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors duration-200 hover:border-indigo-500/50"
+                      className="border-transparent text-gray-700 hover:text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors duration-200 hover:border-indigo-500/50"
                     >
                       Contact
                     </Link>
@@ -77,7 +77,7 @@ export default function RootLayout({
           </main>
           <footer className="bg-white border-t border-gray-200">
             <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-              <p className="text-center text-gray-500 text-sm">
+              <p className="text-center text-gray-700 text-sm">
                 © {new Date().getFullYear()} SnipHub. All rights reserved.
               </p>
             </div>
